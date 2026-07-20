@@ -1,0 +1,52 @@
+{
+    "task_1": {
+        "status": "success",
+        "output": {
+            "alert": "clear"
+        },
+        "error": null,
+        "undo_action": {
+            "agent": "SecurityAgent"
+        }
+    },
+    "parent_task_1": {
+        "status": "success",
+        "output": {
+            "alert": "clear"
+        },
+        "error": null,
+        "undo_action": {
+            "agent": "SecurityAgent"
+        }
+    },
+    "child_task_1": {
+        "status": "success",
+        "output": {
+            "path": "/virtual/data.txt"
+        },
+        "error": null,
+        "undo_action": {
+            "agent": "FileAgent"
+        }
+    },
+    "parent_task_2": {
+        "status": "success",
+        "output": {
+            "child_workflow_id": "child_wf_01"
+        },
+        "error": null,
+        "undo_action": {
+            "agent": "SubWorkflowAgent"
+        }
+    },
+    "master_task": {
+        "status": "success",
+        "output": {
+            "plan_executed": "auto_security_plan"
+        },
+        "error": null,
+        "undo_action": {
+            "agent": "PlannerAgent"
+        }
+    }
+}

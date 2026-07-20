@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <title>ONE OS - 3D Mission Control</title>
+    <style>
+        body { margin: 0; background-color: #050508; color: #00ffff; font-family: 'Consolas', sans-serif; overflow: hidden; }
+        #hud-overlay { position: absolute; top: 20px; left: 20px; z-index: 10; background: rgba(11, 11, 15, 0.85); padding: 20px; border-radius: 8px; }
+        h1 { margin: 0 0 10px 0; font-size: 18px; text-transform: uppercase; letter-spacing: 2px; }
+        .stat-line { margin: 8px 0; font-size: 14px; }
+        #canvas-container { width: 100vw; height: 100vh; }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+</head>
+<body>
+    <!-- ปุ่มปลดล็อกเสียง -->
+    <button id="start-btn" style="position:fixed; top:20px; right:20px; z-index:9999; padding:10px; background:cyan; border:none; cursor:pointer; font-family:Consolas;">START VOICE SYSTEM</button>
+
+    <div id="hud-overlay">
+        <h1>🛸 ONE OS HUD SYSTEM</h1>
+        <hr style="border-color: #00ffff;">
+        <div class="stat-line">CORE STATUS: <span style="color: #00ff00; font-weight: bold;">ONLINE</span></div>
+        <div class="stat-line">CPU USAGE: <span id="cpu-val">0%</span></div>
+        <div class="stat-line">RAM USAGE: <span id="ram-val">0%</span></div>
+        <div class="stat-line">TARGET INTERFACE: <span style="color: #ff00ff;">WEB_3D_METAVERSE</span></div>
+    </div>
+
+    <div id="canvas-container"></div>
+    <script src="main.js"></script>
+</body>
+</html>

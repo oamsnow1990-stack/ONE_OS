@@ -1,0 +1,32 @@
+import numpy as np # ใช้สำหรับจัดการ Vector
+from core.kernel.base_service import BaseService
+
+class LLMService(BaseService):
+    def __init__(self):
+        super().__init__("llm_service")
+        # Initialize LLM Client หรือ API Key ที่นี่
+        pass
+
+    def regenerate_plan(self, goal: str, error_log: str) -> dict:
+        prompt = f"""
+        เป้าหมายคือ: {goal}
+        แผนเดิมล้มเหลวด้วยสาเหตุ: {error_log}
+        จงวิเคราะห์ความผิดพลาดและสร้างแผน Workflow JSON ใหม่ที่เลี่ยงความผิดพลาดเดิม
+        """
+        self.logger.warning(f"🧠 [LLM Planner] กำลังแก้ไขแผนจาก Error: {error_log}")
+        # ในงานจริง: return client.generate_content(prompt)
+        return {"tasks": [{"id": "fixed_task", "agent": "FileAgent", "input": {"msg": "try_again"}}]}
+
+    def get_embedding(self, text: str) -> list[float]:
+        """
+        แปลงข้อความให้เป็น Vector (Embedding)
+        เพื่อใช้สำหรับค้นหาความหมายใน MemoryService
+        """
+        self.logger.info(f"🧠 [LLM Embedding] กำลังสร้าง Vector สำหรับข้อความ")
+        
+        # --- จุดนี้คือจุดที่เจ้านายต้องต่อกับ API จริง (เช่น OpenAI หรือ Local Model) ---
+        # ตัวอย่างการ Call API (สมมติ):
+        # return client.embeddings.create(input=text, model="text-embedding-3-small").data[0].embedding
+        
+        # สำหรับการทดสอบ (Mock): คืนค่า Vector ขนาด 768 แบบสุ่ม (ขนาดมาตรฐาน)
+        return np.random.rand(768).tolist()

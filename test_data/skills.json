@@ -1,0 +1,58 @@
+{
+    "auto_skill_security_sweep": {
+        "name": "auto_skill_security_sweep",
+        "workflow_id": "auto_skill_security_sweep",
+        "description": "Auto-generated skill from frequent workflow: security_sweep",
+        "template": [
+            {
+                "agent": "SecurityAgent",
+                "task": "sweep"
+            }
+        ],
+        "created_at": "2026-07-18T19:41:12.660615",
+        "success_count": 0,
+        "metadata": {}
+    },
+    "auto_skill_lock_front_door": {
+        "name": "auto_skill_lock_front_door",
+        "workflow_id": "auto_skill_lock_front_door",
+        "description": "Auto-generated skill from frequent workflow: lock_front_door",
+        "template": [
+            {
+                "agent": "AutoAgent",
+                "task": "lock_front_door"
+            }
+        ],
+        "created_at": "2026-07-18T19:50:05.073937",
+        "success_count": 0,
+        "metadata": {}
+    },
+    "auto_skill_scan_network": {
+        "name": "auto_skill_scan_network",
+        "workflow_id": "auto_skill_scan_network",
+        "description": "Auto-generated skill from frequent workflow: scan_network",
+        "template": [
+            {
+                "agent": "AutoAgent",
+                "task": "scan_network"
+            }
+        ],
+        "created_at": "2026-07-18T19:50:05.083311",
+        "success_count": 0,
+        "metadata": {}
+    },
+    "auto_skill_enable_alarms": {
+        "name": "auto_skill_enable_alarms",
+        "workflow_id": "auto_skill_enable_alarms",
+        "description": "Auto-generated skill from frequent workflow: enable_alarms",
+        "template": [
+            {
+                "agent": "AutoAgent",
+                "task": "enable_alarms"
+            }
+        ],
+        "created_at": "2026-07-18T19:50:05.103004",
+        "success_count": 0,
+        "metadata": {}
+    }
+}

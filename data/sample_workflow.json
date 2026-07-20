@@ -1,0 +1,18 @@
+{
+  "workflow_id": "analyze_ai_trends_2026",
+  "tasks": [
+    {
+      "id": "search_step",
+      "action": "youtube_search",
+      "priority": 10,
+      "depends_on": []
+    },
+    {
+      "id": "analyze_step",
+      "action": "oel_analyze",
+      "priority": 8,
+      "depends_on": ["search_step"],
+      "condition": "len(search.results) > 0"
+    }
+  ]
+}
