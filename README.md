@@ -1,4 +1,4 @@
-# ONE OS
+# ONE OS 🚀 
 
 > The Ultimate AI-Powered Operating System Starter Kit
 
