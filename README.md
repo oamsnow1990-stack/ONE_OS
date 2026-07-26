@@ -1,95 +1,58 @@
-# ONE OS 🚀 
+<div align="center">
 
-> The Ultimate AI-Powered Operating System Starter Kit
+# ONE OS 🚀
+### **The AI Operating System • Inspired by J.A.R.V.I.S.**
 
-![ONE OS](https://one-os.vercel.app)
+[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Visit_App-blue?style=for-the-badge)](https://one-os.vercel.app)
+[![Buy Source Code](https://img.shields.io/badge/💳_Buy_Source_Code-Lemon_Squeezy-success?style=for-the-badge)](https://one-os.lemonsqueezy.com)
+[![GitHub Release](https://img.shields.io/badge/📦_Version-v22-informational?style=for-the-badge)](https://github.com/oamsnow1990-stack/ONE_OS/releases)
+[![License](https://img.shields.io/badge/📜_License-Commercial-orange?style=for-the-badge)](LICENSE)
 
-## Live Demo
-
-https://one-os.vercel.app
-
----
-
-## About
-
-ONE OS is an experimental AI Operating System that combines:
-
-- AI Dashboard
-- Multi-Agent Architecture
-- Neural Core Visualization
-- Command Workspace
-- Cognitive Runtime
-- Explainable AI
-- Memory System
-- Voice Interface
-- Plugin Architecture
-
-Inspired by J.A.R.V.I.S., Iron Man UI, modern AI research interfaces and futuristic operating systems.
+</div>
 
 ---
 
-## Features
+## 🌟 Overview
 
-✅ Neural Core
-
-✅ Cognitive Runtime
-
-✅ AI Command Center
-
-✅ Voice Interaction
-
-✅ Multi-Agent System
-
-✅ Memory Engine
-
-✅ Plugin Ready
-
-✅ FastAPI Backend
-
-✅ React + Vite Frontend
+**ONE OS** is an elite, next-generation AI operating system and desktop framework. Built for developers, visionaries, and power users who want a fully integrated cognitive environment powered by cutting-edge intelligence.
 
 ---
 
-## Tech Stack
+## ✨ Core Features
 
-Frontend
-
-- React
-- TypeScript
-- Vite
-
-Backend
-
-- Python
-- FastAPI
-
-Visualization
-
-- Three.js
-- WebGL
-
-Deployment
-
-- Vercel
+* ✅ **Neural Core** — Advanced background intelligence processing unit.
+* ✅ **Cognitive Runtime** — Dynamic execution and context handling.
+* ✅ **AI Command Center** — Unified workspace to control all operations.
+* ✅ **Voice Interaction** — Natural, real-time voice command engine.
+* ✅ **Multi-Agent System** — Collaborative autonomous AI agents.
+* ✅ **Memory Engine** — Persistent context and long-term data recall.
+* ✅ **Plugin Ready** — Modular architecture for seamless extensibility.
+* ✅ **FastAPI Backend** — High-performance asynchronous core server.
+* ✅ **React + Vite Frontend** — Lightning-fast, ultra-responsive UI.
 
 ---
 
-## Live Website
+## 🛠️ Tech Stack
 
-https://one-os.vercel.app
+### Frontend
+* **Core:** React, TypeScript, Vite
+* **UI/UX:** Tailwind CSS, Custom Cyber Blue Theme
+* **Visualization:** Three.js, WebGL
 
----
-
-## Status
-
-Current Version
-
-ONE OS v22
-
-In Active Development
+### Backend & AI
+* **Server:** Python, FastAPI
+* **Intelligence:** Multi-Agent Architecture, Voice Engine
+* **Deployment:** Vercel, Electron (Desktop Framework)
 
 ---
 
-Created by
+## 📊 Architecture Flow
 
-oamsnow1990-stack
+```text
+[ React Frontend ] 
+       ↓
+[ FastAPI Kernel ] 
+       ↓
+[ Memory Engine & Multi-Agents ] 
+       ↓
+[ Plugin System ]
