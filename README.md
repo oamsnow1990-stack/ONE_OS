@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-  <a href="https://youtu.be/53NML_XJPFQ" target="_blank">
+  <a href="(https://youtu.be/8ipJbQGnfos)="_blank">
     <img src="https://img.youtube.com/vi/53NML_XJPFQ/maxresdefault.jpg" alt="ONE OS Demo Video" width="100%">
   </a>
 </p>
