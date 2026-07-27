@@ -13,7 +13,7 @@ voice interaction, memory, workflow automation, and modular AI architecture.
 <p>
 
 [![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-blue?style=for-the-badge)](https://one-os.vercel.app)
-[![Source Code](https://img.shields.io/badge/💳_Buy_Source_Code-success?style=for-the-badge)](https://one-os.lemonsqueezy.com)
+[![Buy Source Code](https://img.shields.io/badge/💳_Buy_Source_Code-success?style=for-the-badge)](https://snowstorm02.gumroad.com/l/one-os)
 [![Version](https://img.shields.io/badge/v22-Experimental-purple?style=for-the-badge)](https://github.com/oamsnow1990-stack/ONE_OS/releases)
 [![License](https://img.shields.io/badge/Commercial-License-orange?style=for-the-badge)](LICENSE)
 
