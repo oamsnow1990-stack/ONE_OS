@@ -1,314 +1,100 @@
 <div align="center">
 
 # ONE OS 🚀
-## The AI Operating System
-### Build Your Own J.A.R.V.I.S.
+### **The AI Operating System • Inspired by J.A.R.V.I.S.**
 
-<p>
-An experimental AI Operating System designed to become the next generation
-desktop assistant with autonomous agents, neural visualization,
-voice interaction, memory, workflow automation, and modular AI architecture.
+<p align="center">
+  <b>A next-generation elite AI operating system and desktop framework engineered for visionaries, power users, and developers.</b>
 </p>
 
-<p>
+[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Visit_App-blue?style=for-the-badge)](https://one-os.vercel.app)
+[![Buy Commercial License](https://img.shields.io/badge/💳_Buy_Source_Code-Lemon_Squeezy-success?style=for-the-badge)](https://one-os.lemonsqueezy.com)
+[![GitHub Release](https://img.shields.io/badge/📦_Version-v22-informational?style=for-the-badge)](https://github.com/oamsnow1990-stack/ONE_OS/releases)
+[![License](https://img.shields.io/badge/📜_License-Commercial-orange?style=for-the-badge)](LICENSE)
+[![Discord](https://img.shields.io/badge/💬_Community-Discord-7289DA?style=for-the-badge)](https://discord.gg/your-invite)
 
-[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-blue?style=for-the-badge)](https://one-os.vercel.app)
-[![Source Code](https://img.shields.io/badge/💳_Buy_Source_Code-success?style=for-the-badge)](https://one-os.lemonsqueezy.com)
-[![Version](https://img.shields.io/badge/v22-Experimental-purple?style=for-the-badge)]
-[![License](https://img.shields.io/badge/Commercial-License-orange?style=for-the-badge)]
+---
 
+<!-- Hero Banner / 3D Core GIF -->
+<p align="center">
+  <img src="./assets/core-animation.gif" alt="ONE OS Neural Core Animation" width="100%">
 </p>
 
-<img src="./assets/core-animation.gif" width="100%"/>
-
-<h3>
-⚡ Interactive Neural Core Visualization
-</h3>
+<!-- Clickable Demo Video -->
+<p align="center">
+  <a href="https://youtu.be/8ipJbQGnfos" target="_blank">
+    <img src="https://img.youtube.com/vi/8ipJbQGnfos/maxresdefault.jpg" alt="ONE OS Demo Video Click to Watch" width="100%">
+  </a>
+</p>
 
 </div>
 
 ---
 
-# What is ONE OS?
+## 🌟 Overview
 
-ONE OS is not another chatbot.
-
-It is an attempt to build an AI Operating System where every subsystem behaves like a living digital brain.
-
-Instead of opening ChatGPT in a browser...
-
-ONE OS places AI at the center of your desktop.
-
-Everything revolves around the Neural Core.
+**ONE OS** is an elite, next-generation AI operating system and desktop framework. Built from the ground up to blur the lines between sci-fi interfaces (inspired by J.A.R.V.I.S.) and real-world developer tooling. It provides a fully integrated cognitive environment powered by cutting-edge multi-agent intelligence, real-time voice streaming, and lightning-fast execution.
 
 ---
 
-# Vision
+## ✨ Animated Feature Cards
 
-Imagine a desktop where
-
-• AI thinks
-
-• AI remembers
-
-• AI controls applications
-
-• AI manages workflows
-
-• AI learns your habits
-
-• AI visualizes its thinking in real-time
-
-That is the long-term vision of ONE OS.
-
----
-
-# Core Architecture
-
-```
-                +----------------------+
-                |     USER VOICE       |
-                +----------+-----------+
-                           |
-                    Wake Word Engine
-                           |
-                    Intent Recognition
-                           |
-                 +---------+---------+
-                 |                   |
-          Workflow Engine      Agent Manager
-                 |                   |
-          Memory System        Plugin System
-                 |                   |
-             Neural Core Visualization
-                 |
-           Dashboard / Desktop UI
-```
+<table>
+  <tr>
+    <td width="50%">
+      <h3>🧠 Neural Core</h3>
+      <p>Advanced background intelligence processing unit handling asynchronous operations and contextual triggers autonomously.</p>
+    </td>
+    <td width="50%">
+      <h3>🗣️ Real-time Voice Interaction</h3>
+      <p>Natural, zero-latency voice command engine allowing seamless conversational control over your system.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h3>🤖 Multi-Agent System</h3>
+      <p>Collaborative autonomous AI agents working in unison to solve complex workflows and data pipelines.</p>
+    </td>
+    <td width="50%">
+      <h3>⚡ Cognitive Runtime</h3>
+      <p>Dynamic execution environment equipped with persistent memory and ultra-fast long-term data recall.</p>
+    </td>
+  </tr>
+</table>
 
 ---
 
-# Features
+## 🛠️ Tech Stack
 
-## 🧠 Neural Core
+### Frontend & UI/UX
+* **Core Framework:** React, TypeScript, Vite
+* **Styling & Theme:** Tailwind CSS (Custom Cyber Blue Theme)
+* **Visualization & 3D:** Three.js, WebGL
 
-A fully animated AI Core that visualizes internal activity.
-
-Planned Features
-
-- Multi Layer Core
-- 3D Lighting
-- Energy Pulse
-- Packet Flow
-- Synapse Network
-- Thinking Animation
-- Audio Reactive
-- GPU Rendering
+### Backend & AI Infrastructure
+* **Server Kernel:** Python, FastAPI (Asynchronous Engine)
+* **AI & Intelligence:** Multi-Agent Architecture, Custom Voice Engine
+* **Desktop & Deployment:** Electron, Vercel
 
 ---
 
-## 🤖 AI Agents
-
-Multiple AI agents working together.
-
-Current modules
-
-- Assistant
-- Planner
-- Memory
-- Search
-- Workflow
-
-Future
-
-- Code Agent
-- Browser Agent
-- Vision Agent
-- Computer Agent
-- Automation Agent
-
----
-
-## 🎙 Voice Engine
-
-Future voice architecture
-
-- Wake Word
-- Streaming Speech
-- Speech Queue
-- Audio Cache
-- ElevenLabs
-- Azure Speech
-- OpenAI Voice
-
----
-
-## 🧠 Memory System
-
-Persistent memory designed for long conversations.
-
-Features
-
-- Short-term Memory
-- Long-term Memory
-- Semantic Search
-- Memory Ranking
-- Context Injection
-
----
-
-## ⚙ Workflow Engine
-
-Build autonomous workflows.
-
-Examples
-
-✔ Research
-
-✔ Coding
-
-✔ File Management
-
-✔ Automation
-
-✔ Scheduling
-
-✔ Agent Collaboration
-
----
-
-# Technology
-
-Frontend
-
-- React
-- TypeScript
-- Vite
-- Tailwind
-
-Visualization
-
-- Canvas
-- WebGL
-- Three.js (Planned)
-
-Backend
-
-- Python
-- FastAPI
-
-AI
-
-- OpenAI
-- Ollama
-- Azure AI
-- ElevenLabs
-
-Storage
-
-- SQLite
-
-Deployment
-
-- Vercel
-
----
-
-# Roadmap
-
-## Version 22
-
-- Dashboard
-- Agent Framework
-- Workflow Runtime
-- Memory
-- Neural Core Prototype
-
----
-
-## Version 23
-
-- Core Animation Rewrite
-- Packet Engine
-- Audio Reactive
-- Synapse Network
-- Voice Engine v2
-
----
-
-## Version 24
-
-- Full GPU Rendering
-- 3D Core
-- Multi-Agent Collaboration
-- Plugin Marketplace
-- AI Desktop Control
-
----
-
-# Gallery
-
-<img src="./assets/dashboard.png"/>
-
-<img src="./assets/neural-core.png"/>
-
-<img src="./assets/workflow.png"/>
-
----
-
-# Why ONE OS?
-
-Unlike a traditional chatbot,
-
-ONE OS is designed as an AI-first operating environment.
-
-The goal is not just answering questions.
-
-The goal is building an AI that can think, remember, plan, and interact with your computer naturally.
-
----
-
-# Project Status
-
-Current Stage
-
-🟢 Active Development
-
-Architecture Progress
-
-██████████░░░░░░░░ 58%
-
-Neural Core
-
-██████░░░░░░░░░░░░ 35%
-
-Voice Engine
-
-████░░░░░░░░░░░░░░ 20%
-
-Workflow
-
-███████████░░░░░░░ 65%
-
----
-
-# Live Demo
-
-https://one-os.vercel.app
-
----
-
-# Buy Source Code
-
-https://one-os.lemonsqueezy.com
-
----
-
-# Support the Project
-
-If you believe in building the future of AI Operating Systems,
-
-⭐ Star this repository
-
-💙 Share the project
-
-🚀 Follow future updates
+## 📊 Architecture Flow
+
+```text
++-------------------------------------------------------+
+|                    React Frontend                     |
+|         (Tailwind CSS / Three.js / Cyber UI)          |
++---------------------------+---------------------------+
+                            |
+                            v
++-------------------------------------------------------+
+|                    FastAPI Kernel                     |
+|           (Asynchronous Server & Endpoints)           |
++---------------------------+---------------------------+
+                            |
+         +------------------+------------------+
+         |                                     |
+         v                                     v
++------------------------------+     +------------------+
+| Memory Engine & Multi-Agents |     |  Plugin System   |
++------------------------------+     +------------------+
