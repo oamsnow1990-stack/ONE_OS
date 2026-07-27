@@ -12,51 +12,10 @@
   <img src="./assets/core-animation.gif" alt="ONE OS Neural Core Animation" width="100%">
 </p>
 
+<p align="center">
+  <a href="https://youtu.be/53NML_XJPFQ" target="_blank">
+    <img src="https://img.youtube.com/vi/53NML_XJPFQ/maxresdefault.jpg" alt="ONE OS Demo Video" width="100%">
+  </a>
+</p>
+
 </div>
-
----
-
-## 🌟 Overview
-
-**ONE OS** is an elite, next-generation AI operating system and desktop framework. Built for developers, visionaries, and power users who want a fully integrated cognitive environment powered by cutting-edge intelligence.
-
----
-
-## ✨ Core Features
-
-* ✅ **Neural Core** — Advanced background intelligence processing unit.
-* ✅ **Cognitive Runtime** — Dynamic execution and context handling.
-* ✅ **AI Command Center** — Unified workspace to control all operations.
-* ✅ **Voice Interaction** — Natural, real-time voice command engine.
-* ✅ **Multi-Agent System** — Collaborative autonomous AI agents.
-* ✅ **Memory Engine** — Persistent context and long-term data recall.
-* ✅ **Plugin Ready** — Modular architecture for seamless extensibility.
-* ✅ **FastAPI Backend** — High-performance asynchronous core server.
-* ✅ **React + Vite Frontend** — Lightning-fast, ultra-responsive UI.
-
----
-
-## 🛠️ Tech Stack
-
-### Frontend
-* **Core:** React, TypeScript, Vite
-* **UI/UX:** Tailwind CSS, Custom Cyber Blue Theme
-* **Visualization:** Three.js, WebGL
-
-### Backend & AI
-* **Server:** Python, FastAPI
-* **Intelligence:** Multi-Agent Architecture, Voice Engine
-* **Deployment:** Vercel, Electron (Desktop Framework)
-
----
-
-## 📊 Architecture Flow
-
-```text
-[ React Frontend ] 
-        ↓
-[ FastAPI Kernel ] 
-        ↓
-[ Memory Engine & Multi-Agents ] 
-        ↓
-[ Plugin System ]
