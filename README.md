@@ -8,6 +8,10 @@
 [![GitHub Release](https://img.shields.io/badge/📦_Version-v22-informational?style=for-the-badge)](https://github.com/oamsnow1990-stack/ONE_OS/releases)
 [![License](https://img.shields.io/badge/📜_License-Commercial-orange?style=for-the-badge)](LICENSE)
 
+<p align="center">
+  <img src="./assets/core-animation.gif" alt="ONE OS Neural Core Animation" width="100%">
+</p>
+
 </div>
 
 ---
@@ -50,9 +54,9 @@
 
 ```text
 [ React Frontend ] 
-       ↓
+        ↓
 [ FastAPI Kernel ] 
-       ↓
+        ↓
 [ Memory Engine & Multi-Agents ] 
-       ↓
+        ↓
 [ Plugin System ]
